@@ -7,7 +7,7 @@ import flet_charts as fch
 # CONFIGURAÇÃO DO DHT22
 # =========================================================
 
-DHT_PIN = 11
+DHT_PIN = 7
 
 board = telemetrix.Telemetrix()
 
@@ -43,7 +43,7 @@ def dht_callback(data):
 # Inicializa sensor
 board.set_pin_mode_dht(
     DHT_PIN,
-    dht_type=22,
+    dht_type=11,
     callback=dht_callback
 )
 
@@ -54,7 +54,7 @@ board.set_pin_mode_dht(
 async def main(page: ft.Page):
 
     page.title = "Monitor DHT22"
-    page.theme_mode = ft.ThemeMode.DARK
+    page.theme_mode = ft.ThemeMode.SYSTEM
 
     page.window_width = 900
     page.window_height = 700
@@ -293,7 +293,7 @@ async def main(page: ft.Page):
 
         temp_fill.width = max(
             0,
-            min((temperature / 50) * BAR_WIDTH, BAR_WIDTH)
+            min((temperature / 80) * BAR_WIDTH, BAR_WIDTH)
         )
 
         humid_fill.width = max(
