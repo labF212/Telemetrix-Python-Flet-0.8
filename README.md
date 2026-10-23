@@ -39,11 +39,11 @@ flet_read_csv6files_graphic.py: Utility to read historical data stored in CSV fo
 
 Before running the scripts, ensure you have properly configured your environment: 
 
-On the Arduino: 
+1. On the Arduino: 
 Upload the corresponding Telemetrix firmware to your board using the Arduino IDE. Typically, the Telemetrix4Arduino sketch is
 used (available in the official Telemetrix documentation).
 
-On the Computer (Python): 
+2. On the Computer (Python): 
 Install the required dependencies using your terminal: bash pip install telemetrix flet pandas matplotlib 
 
 ## 💻 How to Run 
