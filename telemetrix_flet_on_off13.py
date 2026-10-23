@@ -2,7 +2,7 @@ import flet as ft
 from telemetrix import telemetrix
 
 # ---------------- HARDWARE ----------------
-PIN_LED = 7
+PIN_LED = 13
 
 board = telemetrix.Telemetrix()
 board.set_pin_mode_digital_output(PIN_LED)
