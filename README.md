@@ -11,10 +11,13 @@ Things), data acquisition, and industrial automation.
 Interactive Graphical Interfaces: Built with Flet to create fluid, responsive, and visual control panels (GUIs).
 Real-Time Sensor Control: Reading and processing data from sensors such as LDR (light), DHT22 (temperature/humidity), and HC-SR04
 (sonar/ultrasound).
+
 Actuator Manipulation: Ready-to-use code for controlling servomotors, relays, PWM outputs, and LED triggering (including traffic light
 logic).
+
 Storage and Graphing: Automatic exporting of sensor data to .csv files and dynamic rendering of graphs for historical data analysis.
 Home Automation Modules: Includes a dedicated prototype for simulating and controlling a “Smart Home”. 
+
 ## 📂 Relevant File Structure 
 casa inteligente/ / casa_inteligente.py: Scripts focused on simulating automated residential systems.
 telemetrix_flet_scr04_...: Scripts dedicated to reading the ultrasonic sensor (HC-SR04 Sonar), logging data into multiple files, and
@@ -34,5 +37,5 @@ Install the required dependencies using your terminal: bash pip install telemetr
 Connect your Arduino board to your computer via a USB port.
 Identify or allow Telemetrix to automatically detect the correct COM/serial port.
 Run any of the available GUI scripts. Example: bash python telemetrix_flet_dht22.py 
-🎓 Institutional Context 
-This project features visual elements associated with the technological environment
+## 🎓 Institutional Context 
+This project is to test and to run several sensors in arduino platform and show it to students
