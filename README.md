@@ -35,16 +35,31 @@ telemetrix_flet_sermovotor.py: Manual or automatic angular position control of a
 
 flet_read_csv6files_graphic.py: Utility to read historical data stored in CSV format and plot metrics for analysis. 
 
-## 🛠️ Prerequisites 
+## 🛠️ Prerequisites
 
-Before running the scripts, ensure you have properly configured your environment: 
+Before running the scripts, make sure you have properly configured your environment:
 
-1. On the Arduino: 
-Upload the corresponding Telemetrix firmware to your board using the Arduino IDE. Typically, the Telemetrix4Arduino sketch is
-used (available in the official Telemetrix documentation).
+1. **On the Arduino:**
+   - Upload the corresponding Telemetrix firmware to your board using the Arduino IDE. 
+   - Typically, the `Telemetrix4Arduino` sketch is used (available in the official Telemetrix documentation).
 
-2. On the Computer (Python): 
-Install the required dependencies using your terminal: bash pip install telemetrix flet pandas matplotlib 
+2. **On the Computer (VSCodium Setup):**
+   - Open **VSCodium** and open the project folder (`File` > `Open Folder...`).
+   - Open the integrated terminal (`Ctrl + Shift + \`` or `View` > `Terminal`).
+   - Create a virtual environment to isolate the project dependencies:
+     ```bash
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - **Windows (PowerShell):** `.\venv\Scripts\Activate.ps1`
+     - **Linux / macOS:** `source venv/bin/activate`
+   - *Tip:* When prompted by VSCodium to select the interpreter for the workspace, choose the one inside the `venv` folder.
+
+3. **Install Dependencies:**
+   - With the virtual environment activated in your terminal, install the required packages:
+     ```bash
+     pip install telemetrix flet pandas matplotlib
+     ``` 
 
 ## 💻 How to Run 
 
