@@ -23,11 +23,16 @@ Home Automation Modules: Includes a dedicated prototype for simulating and contr
 ## 📂 Relevant File Structure 
 
 casa inteligente/ / casa_inteligente.py: Scripts focused on simulating automated residential systems.
+
 telemetrix_flet_scr04_...: Scripts dedicated to reading the ultrasonic sensor (HC-SR04 Sonar), logging data into multiple files, and
 generating distance graphs.
+
 telemetrix_flet_dht22.py: Interface for environmental temperature and humidity monitoring.
+
 telemetrix_flet_A0_barra_horizontal_ldr.py: Analog reading of a light sensor with instantaneous visual feedback.
+
 telemetrix_flet_sermovotor.py: Manual or automatic angular position control of a servomotor.
+
 flet_read_csv6files_graphic.py: Utility to read historical data stored in CSV format and plot metrics for analysis. 
 
 ## 🛠️ Prerequisites 
