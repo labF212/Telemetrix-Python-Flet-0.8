@@ -9,8 +9,8 @@ Things), data acquisition, and industrial automation.
 
 ## 🚀 Key Features 
 
-Interactive Graphical Interfaces: Built with Flet to create fluid, responsive, and visual control panels (GUIs).
-Real-Time Sensor Control: Reading and processing data from sensors such as LDR (light), DHT22 (temperature/humidity), and HC-SR04
+- Interactive Graphical Interfaces: Built with Flet to create fluid, responsive, and visual control panels (GUIs).
+- Real-Time Sensor Control: Reading and processing data from sensors such as LDR (light), DHT22 (temperature/humidity), and HC-SR04
 (sonar/ultrasound).
 
 Actuator Manipulation: Ready-to-use code for controlling servomotors, relays, PWM outputs, and LED triggering (including traffic light
