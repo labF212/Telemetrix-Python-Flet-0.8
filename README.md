@@ -21,15 +21,15 @@ logic).
 
 Before running the scripts, make sure you have properly configured your environment:
 
-1. **On the Arduino:**
-   - Upload the corresponding Telemetrix firmware to your board using the Arduino IDE. 
-   - Typically, the `Telemetrix4Arduino` sketch is used (available in the official Telemetrix documentation).
-  
-2. **Telemetrix**
+1. **Telemetrix**
 
 The **Telemetrix Project** is a modern-day replacement for Arduino StandardFirmata, equipped with many more built-in features than StandardFirmata. The project consists of Python APIs used to create Python client applications and C++ servers that communicate with the Python client over a serial or Wi-Fi link.
 
-Installing Telemetrix
+2. **On the Arduino:**
+   - Upload the corresponding Telemetrix firmware to your board using the Arduino IDE. 
+   - Typically, the `Telemetrix4Arduino` sketch is used (available in the official Telemetrix documentation).
+ 
+3. Installing Telemetrix on computer
 
 To install Telemetrix on Linux (including Raspberry Pi) and macOS:
 
@@ -46,7 +46,7 @@ pip install telemetrix
 To communicate Python with Arduino, you must upload a program to the Arduino following the instructions at:  
 [Telemetrix Instructions for Arduino](https://mryslab.github.io/telemetrix/telemetrix4arduino/)
 
-3. **On the Computer (VSCodium Setup):**
+4. **On the Computer (VSCodium Setup):**
    - Open **VSCodium** and open the project folder (`File` > `Open Folder...`).
    - Open the integrated terminal (`Ctrl + Shift + \`` or `View` > `Terminal`).
    - Create a virtual environment to isolate the project dependencies:
@@ -58,7 +58,7 @@ To communicate Python with Arduino, you must upload a program to the Arduino fol
      - **Linux / macOS:** `source venv/bin/activate`
    - *Tip:* When prompted by VSCodium to select the interpreter for the workspace, choose the one inside the `venv` folder.
 
-4. **Install Dependencies:**
+5. **Install Dependencies:**
    - With the virtual environment activated in your terminal, install the required packages:
      ```bash
      pip install telemetrix flet pandas matplotlib
