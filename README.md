@@ -28,7 +28,7 @@ Before running the scripts, make sure you have properly configured your environm
 2. ** Telemetrix**
 The **Telemetrix Project** is a modern-day replacement for Arduino StandardFirmata, equipped with many more built-in features than StandardFirmata. The project consists of Python APIs used to create Python client applications and C++ servers that communicate with the Python client over a serial or Wi-Fi link.
 
-### Installing Telemetrix
+Installing Telemetrix
 
 To install Telemetrix on Linux (including Raspberry Pi) and macOS:
 
